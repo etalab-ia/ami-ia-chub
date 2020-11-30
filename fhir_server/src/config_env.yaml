@@ -1,0 +1,12 @@
+app:
+  log_level: !ENV ${APP_LOG_LEVEL}
+  preload_metadata: !ENV ${APP_PRELOAD_METADATA}
+
+postgres_db:
+  host: !ENV ${POSTGRESQL_HOST}
+  db_name: !ENV ${POSTGRESQL_DBNAME}
+  user: !ENV ${POSTGRESQL_USER}
+  pwd: !ENV ${POSTGRESQL_PWD}
+
+sparql_db:
+  host: !ENV ${SPARQL_HOST}

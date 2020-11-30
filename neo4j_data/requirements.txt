@@ -1,0 +1,6 @@
+pandas==0.25.1
+pymantic==0.2.5
+pathlib2==2.3.5
+bs4==0.0.1
+pyyaml
+requests==2.22.0

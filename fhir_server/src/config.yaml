@@ -1,0 +1,13 @@
+app:
+  log_level: DEBUG
+  preload_metadata: True
+
+postgres_db:
+  host: localhost:5432
+  db_name: chu-bordeaux
+  user: admin
+  pwd: admin
+
+sparql_db:
+  host: 'http://localhost:8888/sparql-endpoint'
+  use_metadata: True

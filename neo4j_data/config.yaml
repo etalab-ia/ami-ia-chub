@@ -1,0 +1,32 @@
+data:
+  input_dir: ../data/graph
+  input_files:
+    biologie : disease_biology23072020.tsv
+    concept_dimensions: concept_dimension.csv
+    frenchTerminoUMLS2019AB: frenchTerminoUMLS2019AB.csv
+  output_dir: ../data/graph/output2
+  output_files:
+    abbreviations : abbreviations.json
+    maladies: diseases_intermediate.csv
+    medicaments: drugs.csv
+    mapping_wiki_icd10: mapping_wiki_icd10.csv
+    maladies_neo4j: diseases.csv
+    medicaments_neo4j: medoc.csv
+    classes_therapeutiques_neo4j: drugclass.csv
+    molecules_neo4j: ingredient.csv
+    noms_commerciaux_neo4j: brand_name.csv
+    specialites_neo4j: specialties.csv
+    symptomes_neo4j: symptoms.csv
+    biologie_neo4j: biology.csv
+sources:
+  chu:
+    blazegraph: http://localhost:8888/sparql-endpoint
+  wikidata:
+    main_url: https://www.wikidata.org/wiki/
+    sparql: https://query.wikidata.org/sparql
+  romedi:
+    api: http://www.romedi.fr:8892/IAMsystemRomediAPI-0.0.1/
+    sparql: http://www.romedi.fr:8890/sparql
+  wikipedia:
+    main_url: https://fr.wikipedia.org
+    abb_url: https://fr.wikipedia.org/wiki/Liste_d%27abr%C3%A9viations_en_m%C3%A9decine

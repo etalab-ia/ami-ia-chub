@@ -1,0 +1,8 @@
+spacy==2.2.4
+pandas==0.25.1
+more-itertools=7.2.0
+Unidecode==1.1.1
+nltk==3.4.5
+pymantic==0.2.5
+pathlib2==2.3.5
+mkl-random==1.1.0

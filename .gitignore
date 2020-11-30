@@ -1,0 +1,10 @@
+.idea
+data/graph/output*
+**/*.pyc
+**/**models
+**/__pycache__
+
+docs/build
+**/*.log*
+
+ia/spacy_NER_models/

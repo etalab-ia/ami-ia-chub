@@ -1,0 +1,7 @@
+FROM neo4j:3.5.17
+
+COPY . /var/lib/neo4j/import/
+RUN chown neo4j:adm /var/lib/neo4j/import/*
+RUN chown neo4j:adm /var/lib/neo4j/import/db_generation/*
+ENTRYPOINT ["/var/lib/neo4j/import/start_script.sh"]
+CMD ["neo4j"]

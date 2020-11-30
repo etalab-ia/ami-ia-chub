@@ -1,0 +1,37 @@
+categorie;terme;synonymes;synonymes;synonymes;synonymes;synonymes
+maladie;diabete;did;dnid;DT1;DT2;
+symptomes;hyperglycémie;glycémie augmentée;glucose augmenté;;;
+symptomes;syndrome polyuro-polydipsique;polydipsie;polyurie;soif;mictions fréquentes;diurèse excessive
+symptomes;acidocétose;corps cétoniques;;;;
+symptomes;insulinorésistance ;résistance à l'insuline;;;;
+biologie;HbA1c;hemoglobine glyquée;;;;
+biologie;glycémie;glucose sanguin;;;;
+biologie;glycosurie;glucose urinaire;;;;
+biologie;cétonurie;corps cétoniques;acétone;;;
+biologie;microalbuminurie;albuminurie;albumine urines ;;;
+biologie;créatininemie;créatinine;;;;
+biologie;insulinémie;insuline ;;;;
+complications;microangiopathie;artériopathie;;;;
+complications;retinopathie diabetique;;;;;
+complications;neuropathie diabétique;neuropathie;polyneuropathie;troubles sensitifs;;
+complications;ostéoarthropathie diabétique;pied de charcot;pied diabétique;mal perforant plantaire;;
+complications;nephropathie;insuffisance rénale;;;;
+complications;diabète gestationnel;;;;;
+complications;macroangiopathie;;;;;
+complications;steatose hépatique non alcoolique;foie gras;;;;
+examen;fond d'oeil;FO;;;;
+examen;podologie;soins podologiques;pédicurie;;;
+examen;hyperglycémie provoquée ;HGPO;;;;
+Facteurs de risque associés;facteurs de risque cardiovasculaires;FRCV;;;;
+Facteurs de risque associés;hypertension;HTA;;;;
+Facteurs de risque associés;hyperlipidémie;hypercholestérolémie;hypertriglycéridémie;;;
+Facteurs de risque associés;athérosclérose;athérome;;;;
+Facteurs de risque associés;surpoids;surcharge pondérale;;;;
+Facteurs de risque associés;tabagisme;tabac;;;;
+Traitement;antidiabetiques oraux;ado;;;;
+Traitement;insuline;;;;;
+Traitement;règles hygiéno-diététiques;;;;;
+Professionnel de sante;diabetologue;;;;;
+Professionnel de sante;ophtalmologue;ophtalmo;;;;
+Professionnel de sante;podologue;;;;;
+Professionnel de sante;diététicien;;;;;
