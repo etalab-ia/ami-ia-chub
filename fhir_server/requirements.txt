@@ -3,5 +3,5 @@ flask-sqlalchemy==2.4.4
 pymantic==0.2.6
 pandas==1.0.0
 fhirclient==3.2.0
-pyyaml==5.3.1
+pyyaml==5.4
 psycopg2-binary==2.8.6
